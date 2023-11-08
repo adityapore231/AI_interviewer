@@ -4,7 +4,7 @@ import openai
 import PyPDF2
 #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
 
-openai.api_key = "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"
+openai.api_key = "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"
 def extract_text_from_pdf(uploaded_file):
     try:
         reader = PyPDF2.PdfReader(uploaded_file)
